@@ -11,7 +11,7 @@ module.exports = (api, options = {}) => {
 
   // use babel-plugin-import to extract code
   if (extractModules !== false) {
-    log.info('[plugin-fusion-mobile]: extracting code for modules: @alifd/meet, @alifd/meet-react');
+    log.info('[plugin-fusion-mobile]: extracting code for modules: cn-meet, cn-meet-react');
     onGetWebpackConfig((config) => {
       setImport(config);
     });

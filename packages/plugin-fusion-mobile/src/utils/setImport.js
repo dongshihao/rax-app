@@ -6,7 +6,7 @@ module.exports = function (config) {
     [
       require.resolve('babel-plugin-import'),
       {
-        libraryName: '@alifd/meet',
+        libraryName: 'cn-meet',
         libraryDirectory: 'es',
       },
       'meet',
@@ -14,7 +14,7 @@ module.exports = function (config) {
     [
       require.resolve('babel-plugin-import'),
       {
-        libraryName: '@alifd/meet-react',
+        libraryName: 'cn-meet-react',
         libraryDirectory: 'es',
       },
       'meet-react',

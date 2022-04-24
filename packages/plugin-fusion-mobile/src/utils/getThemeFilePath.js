@@ -3,7 +3,7 @@ const chalk = require('chalk');
 const { join } = require('path');
 
 // meet built-in theme
-const DEFAULT_THEME_FILE = '@alifd/meet/es/core/index.css';
+const DEFAULT_THEME_FILE = 'cn-meet/es/core/index.css';
 
 module.exports = (rootDir, themePackage) => {
   const nodeModulesDir = join(rootDir, 'node_modules');
